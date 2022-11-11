@@ -12,6 +12,7 @@ def main(data:str):
         for j in range(len(i)):
             if str(i[j]).isdigit():
                 list1 +=i[j]
+    
     return list1
     
 # Read data from file
