@@ -6,11 +6,11 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    data.split()
+    data=f.split(',')
     ls = []
     for i in data:
         for j in range(len(i)):
-            if str(i[j]).isalpha():
+            if not(i[j]).isdigit():
                 ls +=i[j]
     return ls
 # Read data from file
