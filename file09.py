@@ -8,7 +8,7 @@ def main(data:str):
     """
     data.split("\n")
     list1 = []
-    for i in data.split("n"):
+    for i in data.split("\n"):
         for j in range(len(i)):
             if str(i[j]).isdigit():
                 list1 +=i[j]
