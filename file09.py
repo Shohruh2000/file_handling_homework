@@ -13,12 +13,11 @@ def main(data:str):
             if str(i[j]).isdigit():
                 list1 +=i[j]
     n = len(list1)
-    j = 0 
+    k = 0 
     min = list1[0]
-    for j in range(n):
-        if list1[j] < min:
-            min = list1[j]
-
+    for k in range(n):
+        if list1[k] < min:
+            min = list1[k]
     return min
 
 # Read data from file
